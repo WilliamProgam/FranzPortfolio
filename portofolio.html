@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        .portfolio-item {
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: 250px; /* Menetapkan tinggi gambar */
+            object-fit: cover; /* Memastikan gambar proporsional tanpa meregang */
+        }
+
+        .portfolio-item .portfolio-description {
+            padding: 15px;
+            background-color: #f8f9fa;
+        }
+
+        /* Styling untuk banner */
+        .banner {
+            background-color: black;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .banner h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 0;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        /* Styling untuk logo di banner */
+        .banner img {
+            border-radius: 50%; /* Membuat gambar berbentuk bulat */
+            height: 100px; /* Ukuran logo */
+            width: 100px;
+            object-fit: cover;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 20px; /* Spasi antara logo dan teks */
+        }
+
+        /* Styling untuk footer */
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Banner -->
+    <div class="banner">
+        <!-- Logo -->
+        <img src="img/logo f v2.png" alt="Logo"> <!-- Ganti 'img/logo.png' dengan path logo Anda -->
+        <h1>Selamat Datang di Portofolio Saya</h1>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center my-5">Portofolio Proyek</h2>
+        
+        <!-- Grid Portofolio -->
+        <div class="row">
+            <!-- Item 1 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="img/1.png" alt="Project 1">
+                    <div class="portfolio-description">
+                        <h5>Project 1</h5>
+                        <p>Membuat Banner menggunakan AI [Adobe Illustator].</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="img/2.png" alt="Project 2">
+                    <div class="portfolio-description">
+                        <h5>Project 2</h5>
+                        <p>Membuat Website Profesi dengan HTML dan Navbar</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="img/3.png" alt="Project 3">
+                    <div class="portfolio-description">
+                        <h5>Project 3</h5>
+                        <p>Membuat Jam Digital menggunakan Javascript</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Baris berikutnya -->
+        <div class="row">
+            <!-- Item 4 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="img/4.png" alt="Project 4">
+                    <div class="portfolio-description">
+                        <h5>Project 4</h5>
+                        <p>Membuat Kalkulator menggunakan PHP dan Javascript</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="img/5.png" alt="Project 5">
+                    <div class="portfolio-description">
+                        <h5>Project 5</h5>
+                        <p>Membuat Website yang Responsive dengan button btn</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="img/6.png" alt="Project 6">
+                    <div class="portfolio-description">
+                        <h5>Project 6</h5>
+                        <p>Membuat CV dengan menggunakan HTML dan CSS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tambahan baris lainnya -->
+        <div class="row">
+            <!-- Item 7 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="img/7.png" alt="Project 7">
+                    <div class="portfolio-description">
+                        <h5>Project 7</h5>
+                        <p>Membuat Game "Side Story" menggunakan Unity</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 8 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="img/8.png" alt="Project 8">
+                    <div class="portfolio-description">
+                        <h5>Project 8</h5>
+                        <p>Membuat Perpustakaan yang Responsive menggunakan PHP</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 9 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="img/9.png" alt="Project 9">
+                    <div class="portfolio-description">
+                        <h5>Project 9</h5>
+                        <p>Membuat CRUD dan Menu Login dengan menggunakan CodeIgniter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tambahan baris lainnya -->
+        <div class="row">
+            <!-- Item 10 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="img/10.png" alt="Project 10">
+                    <div class="portfolio-description">
+                        <h5>Project 10</h5>
+                        <p>Membuat Website E-Commerce dengan Bertema AeroStreet</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 11 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="img/11.png" alt="Project 11">
+                    <div class="portfolio-description">
+                        <h5>Project 11</h5>
+                        <p>Membuat E-Commerce dan Menu Cart + Account</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 12 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="img/12.png" alt="Project 11">
+                    <div class="portfolio-description">
+                        <h5>Project 12</h5>
+                        <p>Membuat Layout UI dan UX E-Commerce Menggunakan Canva</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-5">
+        <p>Portofolio Franz Nathanael-RPL</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc6z5lfb+K4qLv8rK9lK20Z6lgj4H4nS1W5yNtk6z" crossorigin="anonymous"></script>
+</body>
+</html>
